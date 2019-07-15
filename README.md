@@ -15,3 +15,7 @@
    - 修改 db.properties 文件中的 mysql 服务的 ip
    - 修改 config.properties 中的属性值为你想要查询的值
    - 执行 Main.java
+
+## 说明
+
+1. 没有使用 stream、每个子项目没有 `build.sh`
