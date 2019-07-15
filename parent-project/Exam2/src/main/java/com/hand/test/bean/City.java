@@ -12,6 +12,15 @@ public class City {
     public City() {
     }
 
+    @Override
+    public String toString() {
+        return "City{" +
+                "cityId=" + cityId +
+                ", countryId=" + countryId +
+                ", city='" + city + '\'' +
+                '}';
+    }
+
     public City(Integer cityId, Integer countryId, String city) {
         this.cityId = cityId;
         this.countryId = countryId;
